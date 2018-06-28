@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD265D5720E47FA400F242E3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD265D5520E47FA400F242E3 /* DataModel.xcdatamodeld */; };
+		BD265D5920E4A00C00F242E3 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD265D5820E4A00C00F242E3 /* CategoryTableViewController.swift */; };
 		BDF22EC920E34C69002FE272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF22EC820E34C69002FE272 /* AppDelegate.swift */; };
 		BDF22ECB20E34C69002FE272 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF22ECA20E34C69002FE272 /* ToDoListViewController.swift */; };
 		BDF22ECE20E34C69002FE272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF22ECC20E34C69002FE272 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		BD265D5620E47FA400F242E3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		BD265D5820E4A00C00F242E3 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		BDF22EC520E34C69002FE272 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF22EC820E34C69002FE272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF22ECA20E34C69002FE272 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		BDC8643620E371C50035CCC5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD265D5820E4A00C00F242E3 /* CategoryTableViewController.swift */,
 				BDF22ECA20E34C69002FE272 /* ToDoListViewController.swift */,
 			);
 			path = Controller;
@@ -173,6 +176,7 @@
 				BDF22ECB20E34C69002FE272 /* ToDoListViewController.swift in Sources */,
 				BD265D5720E47FA400F242E3 /* DataModel.xcdatamodeld in Sources */,
 				BDF22EC920E34C69002FE272 /* AppDelegate.swift in Sources */,
+				BD265D5920E4A00C00F242E3 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
